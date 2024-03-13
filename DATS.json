@@ -1,0 +1,287 @@
+{
+  "title": "Adolescent Brain Development",
+  "description": "-- Recruitment --\nHealthy children were recruited via posters and word of mouth. Children were recruited between 6 and 13 years of age. Inclusion criteria were: 1) uncomplicated birth between 37 to 42 weeks' gestation, 2) no history of developmental disorder or psychiatric disease, 3) no history of neurosurgery, 4) no contraindications to MRI. All subjects provided informed assent and parents/guardians provided writted informed assent.\n\n-- Data Acquisition --\nAll data was acquired at the Alberta Children's Hospital on a GE 3T Discovery MR750w system. \n\nParticipants were asked to return after 2 years to provide a longitudinal time point with the same scan protocol and cognitive examination battery. Some participants returned for a third visit, as they reached 4 years from their initial time point while the study was still actively acquiring data.\n\nA battery of cognitive examinations was also collected during study visits. Exams were conducted in an isolated exam room with the examiner and participant only. Subtests from several studies were included in this battery, and administered if the participant was of appropriate age per subtest. This typically occurred during a separate appointment unless participants requested MRI and cognitive exam on the same day.",
+  "identifier": {
+    "identifier": "AdolescentBrainDevelopment",
+    "identifierSource": "University of Calgary"
+  },
+  "creators": [
+    {
+      "fullName": "Catherine Lebel",
+      "firstName": "Catherine",
+      "lastName": "Lebel",
+      "email": "clebel@ucalgary.ca",
+      "affiliations": [
+        {
+          "name": "Department of Radiology, University of Calgary"
+        }
+      ],
+      "roles": [
+        {
+          "value": "Principal Investigator"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-0344-4032"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "MRI Image"
+      }
+    },
+    {
+      "information": {
+        "value": "Diffusion-weighted MRI 3D image "
+      }
+    },
+    {
+      "information": {
+        "value": "T1-weighted MRI 3D image "
+      }
+    },
+    {
+      "information": {
+        "value": "T2-weighted MRI 3D image "
+      }
+    },
+    {
+      "information": {
+        "value": "Susceptibility-weighted MRI 3D image "
+      }
+    },
+    {
+      "information": {
+        "value": "Blood Oxygen Level Dependent Functional Magnetic Resonance Imaging "
+      }
+    }
+  ],
+  "version": "1.0",
+  "privacy": "registered",
+  "licenses": [
+    {
+      "name": "PDDL"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "COMPRESSED NIFTI (*NIIGZ)"
+      ],
+      "size": 56,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://www.developmentalneuroimaginglab.ca",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "Multimodal principal component analysis to identify major features of white matter structure and links to reading",
+      "publicationVenue": "PLOS One",
+      "authors": [
+        {
+          "fullName": "Bryce Geeraert",
+          "firstName": "",
+          "middleInitial": "",
+          "lastName": "",
+          "affiliations": [
+            {
+              "name": "University of Calgary"
+            }
+          ]
+        },
+        {
+          "fullName": "Maxime Chamberland",
+          "firstName": "",
+          "middleInitial": "",
+          "lastName": "",
+          "affiliations": [
+            {
+              "name": "Cardiff University Brain Research Imaging Centre (CUBRIC)"
+            }
+          ]
+        },
+        {
+          "fullName": "R. Marc Lebel",
+          "firstName": "",
+          "middleInitial": "",
+          "lastName": "",
+          "affiliations": [
+            {
+              "name": "University of Calgary"
+            }
+          ]
+        },
+        {
+          "fullName": "Catherine Lebel",
+          "firstName": "",
+          "middleInitial": "",
+          "lastName": "",
+          "affiliations": [
+            {
+              "name": "University of Calgary"
+            }
+          ]
+        }
+      ],
+      "dates": [],
+      "identifier": {
+        "identifier": "https://doi.org/10.1371/journal.pone.0233244",
+        "identifierSource": "DOI"
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "name": "Calgary",
+      "description": ""
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Natural Sciences and Engineering Research Council Canada",
+          "abbreviation": "NSERC"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "MRI"
+    },
+    {
+      "value": "White Matter Microstructure"
+    },
+    {
+      "value": "Adolescent Brain Development"
+    },
+    {
+      "value": "Brain Development"
+    },
+    {
+      "value": "Diffusion-weighted MRI"
+    },
+    {
+      "value": "Cognition"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "51"
+        }
+      ]
+    },
+	{
+		"category":"logo",
+		"values": [
+			{
+				"value": "logo.png"
+			}
+		]
+	},
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "7051"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "University of Calgary"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Calgary"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Alberta"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Developmental Neuroimaging Lab, brainmri@ucalgary.ca"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I declare that local law or a relevant institutional authorization otherwise enables the deposit of these data in an open-access portal."
+        }
+      ]
+    },
+    {
+      "category": "REB_number",
+      "values": [
+        {
+          "value": "REB13-1346"
+        }
+      ]
+    }
+  ]
+}
