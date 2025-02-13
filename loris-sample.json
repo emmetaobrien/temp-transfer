@@ -1,0 +1,236 @@
+{
+	"title": "Test LORIS DATS file",
+	"description": "This is a test DATS.json metadata file containing proposed fields for storing LORIS-specific information",
+	"creators": [
+		{
+ 			"name": "The Montreal Neurological Institute and Hospital Bioinformatics Core",
+			"abbreviation": "The Neuro Bioinformatics Core",
+			"roles": [
+				{
+					"value": "Principal Investigator"
+				}
+			]
+		}
+	],
+	"types": [
+		{
+			"information": {
+				"value": "MRI_T1"
+			}
+		},
+		{
+			"information": {
+				"value": "Tissue_Blood"
+      		}
+    	},
+	],
+	"version": "1.0",
+	"privacy": "controlled",
+ 	"licenses": [
+		{
+			"name": "CC BY-SA"
+		}
+	],
+	"dates": [
+		{
+ 			"date": "2016-09-01",
+			"type": {
+				"value": "start date"
+			}
+ 		},
+		{
+			"date": "2025-01-16",
+			"type": {
+				"value": "end date"
+			}
+		}
+	],
+	"distributions": [
+		{
+ 			"formats": [
+				"MINC",
+				"NIfTI"
+            ],
+			"size": 50,
+			"unit": {
+				"value": "GB"
+			},
+			"access": {
+				"landingPage": "https://cbigr.loris.ca/",
+				"authorizations": [
+					{
+						"value": "registered"
+					}
+				]
+			}
+		}
+	],
+	"isAbout": [
+		{
+			"name": "Homo sapiens",
+			"identifier": {
+				"identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+				"identifierSource": "NCBI Taxonomy Database"
+			}
+		}
+	],
+	"keywords": [
+		{
+			"value": "keyword 1"
+		},
+		{
+ 			"value": "keyword 2"
+		}
+	],
+	"extraProperties": [
+		{
+			"category": "LORIS",
+			"values": [
+				{
+					"category": "ID",
+					"values": [
+						{
+							"category": "LORISID",
+							"value": "LORISID99999"
+						},
+						{
+							"category": "externalID",
+							"value": "EXTID9999"
+						}
+					]
+				},
+				{
+					"category": "alias",
+					"value": "LI001"
+				},
+				{
+					"category": "candidateAge",
+					"value": 33
+				},
+				{
+					"category": "visits",
+					"values": [
+						{
+							"category": "name",
+							"value": "Visit Name"
+						},
+						{
+							"category": "label",
+							"value": "Visit Label"
+						},
+						{
+							"category": "minAge",
+							"value": 16,
+						},
+						{
+							"category": "maxAge",
+							"value": 97,
+						},
+						{
+							"category": "optMinAge",
+							"value": 18
+						},
+						{
+							"category": "optMaxAge",
+							"value": 50
+						}
+					]
+				},
+				{
+					"category" :"instruments",
+					"values": [
+						{
+							"category": "name",
+							"value": "Instrument 1 Name"
+						},
+						{
+							"category": "source",
+							"value": "Instrument 1 Source"
+						}
+					]
+				}
+			]
+		},
+		{
+			"category": "subjects",
+ 			"values": [
+				{
+					"category": "projected",
+					"value": "9999"
+ 				},
+				{
+					"category": "counted",
+					"value": "999"
+				}
+	  		]
+		},
+ 		{
+ 			"category": "files",
+ 			"values": [
+ 				{
+					"category": "projected",
+					"value": "17"
+ 				},
+				{
+		  			"category": "counted",
+					"value": "16"
+				}
+			]
+ 		},
+		{
+      		"category": "origin",
+      		"values": [
+				[
+					{
+						"category": "institution",
+          				"value": "The Montreal Neurological Institute and Hospital Bioinformatics Core"
+        			},
+					{
+      					"category": "city",
+						"value": "Montreal"
+        			},
+					{
+						"category": "province",
+						"value": "Quebec"
+					},
+					{
+      					"category": "country",
+						"value": "Canada"
+		  			}
+				]
+			]
+		},
+		{
+			"category": "logo",
+      		"values": [
+        		{
+          			"value": "logo.png"
+       			 }
+			]
+ 		},
+		{
+			"category": "registrationPage",
+			"values": [
+				{
+					"value": "https://loris.example.com/login/request-account/"
+				}
+			]
+		},
+ 		{
+			"category": "contact",
+			"values": [
+				{
+					"value": "The Montreal Neurological Institute and Hospital Bioinformatics Core, neurobioinfo@mcgill.ca"
+				}
+			]
+		},
+		{
+			"category": "REB_statement",
+			"values": [
+				{
+					"value": "There will be an updated ethics statement here."
+				}
+			]
+		}
+	]
+}
