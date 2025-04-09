@@ -1,4 +1,0 @@
-[submodule "conp-dataset"]
-	path = conp-dataset
-	url = https://github.com/emmetaobrien/conp-dataset
-	datalad-id = 28434598-5496-11e8-8449-f0d5bf508098
